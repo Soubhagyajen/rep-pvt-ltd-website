@@ -48,26 +48,27 @@ export function FounderSection() {
             variants={itemVariants}
             className="relative flex w-full justify-center lg:col-span-5"
           >
-            <div className="group border-border relative aspect-[3/4] w-full max-w-sm overflow-hidden rounded-2xl border bg-slate-50 p-3 shadow-xl sm:max-w-md sm:p-4 dark:border-white/5 dark:bg-slate-900/40">
-              <div className="relative h-full w-full overflow-hidden rounded-xl bg-slate-200 dark:bg-slate-800">
+            <div className="group relative w-full max-w-[380px] overflow-hidden rounded-[16px] border border-[#D4A43C] bg-white p-4 shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-[6px] hover:scale-[1.02] md:max-w-[350px] lg:max-w-[440px] dark:bg-slate-900/60">
+              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[12px] bg-slate-100 dark:bg-slate-800">
                 <Image
-                  src="/assets/images/tmc_img1.webp"
-                  alt="Mr. Chinmay Kumar Rout ray, Founder & Managing Director"
+                  src="/assets/images/founder.png"
+                  alt="Mr. Chinmay Kumar Rout Ray, Founder & Managing Director, REP PVT LTD"
                   fill
-                  sizes="(max-width: 768px) 100vw, 400px"
-                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                  priority
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 350px, 440px"
+                  className="object-cover"
+                  loading="lazy"
                 />
-                {/* Visual gradient filter overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-40" />
               </div>
-              {/* Floating Badge */}
-              <div className="absolute right-6 bottom-6 left-6 rounded-xl border border-[#D4A84F]/30 bg-[#0B2342]/90 p-4 text-left shadow-lg backdrop-blur-md select-none dark:bg-[#0b1f3a]/90">
-                <p className="font-heading text-base font-extrabold tracking-wide text-white uppercase">
-                  Mr. Chinmay Kumar Rout ray
-                </p>
-                <p className="mt-1 text-[10px] font-bold tracking-widest text-[#D4A84F] uppercase">
+              {/* Text Details Below the Image */}
+              <div className="mt-5 text-center select-none">
+                <h3 className="font-heading text-lg font-extrabold tracking-wide text-[#0B2342] uppercase dark:text-white">
+                  MR. CHINMAY KUMAR ROUT RAY
+                </h3>
+                <p className="mt-1.5 text-xs font-bold tracking-widest text-[#D4A43C] uppercase">
                   Founder & Managing Director
+                </p>
+                <p className="mt-1 text-[11px] font-semibold tracking-wider text-[#475569] uppercase dark:text-gray-400">
+                  REP PVT LTD
                 </p>
               </div>
             </div>
