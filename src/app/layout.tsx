@@ -72,6 +72,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" href="/assets/images/hero-mep.webp" as="image" type="image/webp" />
+      </head>
       <body
         className={`${inter.variable} ${montserrat.variable} ${spaceGrotesk.variable} bg-background text-foreground min-h-screen font-sans antialiased`}
       >

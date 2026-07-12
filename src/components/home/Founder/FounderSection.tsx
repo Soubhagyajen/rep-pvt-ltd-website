@@ -51,7 +51,7 @@ export function FounderSection() {
             <div className="group relative w-full max-w-[380px] overflow-hidden rounded-[16px] border border-[#D4A43C] bg-white p-4 shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-[6px] hover:scale-[1.02] md:max-w-[350px] lg:max-w-[440px] dark:bg-slate-900/60">
               <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[12px] bg-slate-100 dark:bg-slate-800">
                 <Image
-                  src="/assets/images/founder.png"
+                  src="/assets/images/founder.webp"
                   alt="Mr. Chinmay Kumar Rout Ray, Founder & Managing Director, REP PVT LTD"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 350px, 440px"

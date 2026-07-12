@@ -87,7 +87,7 @@ export function Footer() {
         <div className="space-y-6 lg:col-span-2">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/images/logo/rep-logo.png"
+              src="/images/logo/rep-logo.webp"
               alt="REP Logo"
               width={40}
               height={35}

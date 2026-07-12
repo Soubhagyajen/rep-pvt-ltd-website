@@ -162,7 +162,7 @@ export function Navbar() {
             )}
           >
             <Image
-              src="/images/logo/rep-logo.png"
+              src="/images/logo/rep-logo.webp"
               alt="REP Pvt Ltd Logo"
               width={1024}
               height={898}
@@ -396,7 +396,7 @@ export function Navbar() {
                     className="flex items-center gap-2"
                   >
                     <Image
-                      src="/images/logo/rep-logo.png"
+                      src="/images/logo/rep-logo.webp"
                       alt="REP Logo"
                       width={32}
                       height={28}

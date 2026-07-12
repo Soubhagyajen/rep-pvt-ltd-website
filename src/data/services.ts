@@ -12,7 +12,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'electrical',
     title: 'Electrical Works',
     icon: 'Zap',
-    imageUrl: '/images/services/electrical.png',
+    imageUrl: '/images/services/electrical.webp',
     shortDescription:
       'High-tension & low-tension power distribution, substations, panels, and backup grids.',
     description:
@@ -32,7 +32,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'hvac',
     title: 'HVAC Solutions',
     icon: 'Wind',
-    imageUrl: '/images/services/hvac.png',
+    imageUrl: '/images/services/hvac.webp',
     shortDescription:
       'Centralized chilled water plants, VRF, ventilation, and data center cooling.',
     description:
@@ -52,7 +52,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'plumbing',
     title: 'Plumbing & PHE',
     icon: 'Droplet',
-    imageUrl: '/images/services/plumbing.png',
+    imageUrl: '/images/services/plumbing.webp',
     shortDescription:
       'Water treatment setups, sewage treatment plants, domestic lines, and drainage loops.',
     description:
@@ -72,7 +72,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'fire-fighting',
     title: 'Fire Protection',
     icon: 'Flame',
-    imageUrl: '/images/services/fire-fighting.png',
+    imageUrl: '/images/services/fire-fighting.webp',
     shortDescription:
       'Certified sprinkler systems, wet-risers, gas suppression, and life safety networks.',
     description:
@@ -92,7 +92,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'elv-works',
     title: 'ELV Systems',
     icon: 'Cpu',
-    imageUrl: '/images/services/elv.png',
+    imageUrl: '/images/services/elv.webp',
     shortDescription: 'IP CCTV surveillance, biometric access, structured cabling, and IT hubs.',
     description:
       'Extra-low voltage system integrations that serve as the technological spine of modern structures, including surveillance, structured cabling, and smart automation systems.',
@@ -111,7 +111,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'fapa',
     title: 'FAPA Networks',
     icon: 'Activity',
-    imageUrl: '/images/services/fapa.png',
+    imageUrl: '/images/services/fapa.webp',
     shortDescription:
       'Addressable fire alarms, smoke detection, and emergency warning voice grids.',
     description:

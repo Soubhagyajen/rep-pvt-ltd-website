@@ -114,7 +114,7 @@ export function Hero() {
           loop
           playsInline
           preload="metadata"
-          poster="/assets/images/hero-mep.png"
+          poster="/assets/images/hero-mep.webp"
           className="absolute inset-0 h-full w-full object-cover object-center"
         >
           <source src="/assets/video/hero-video.mp4" type="video/mp4" />

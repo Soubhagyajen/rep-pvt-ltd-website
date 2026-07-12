@@ -23,41 +23,41 @@ export const CLIENTS_DATA: Client[] = [
   {
     id: 'lodha',
     name: 'Lodha',
-    logo: '/images/clients/lodha.png',
+    logo: '/images/clients/lodha.webp',
   },
   {
     id: 'tb',
     name: 'TB',
-    logo: '/images/clients/tb.png',
+    logo: '/images/clients/tb.webp',
   },
   {
     id: 'jv-ventures',
     name: 'JV Ventures',
-    logo: '/images/clients/jv-ventures.jpg',
+    logo: '/images/clients/jv-ventures.webp',
   },
   {
     id: 'my-home-group',
     name: 'My Home Group',
-    logo: '/images/clients/my-home-group.jpg',
+    logo: '/images/clients/my-home-group.webp',
   },
   {
     id: 'aparna',
     name: 'Aparna',
-    logo: '/images/clients/aparna.png',
+    logo: '/images/clients/aparna.webp',
   },
   {
     id: 'signature-avenues',
     name: 'Signature Avenues',
-    logo: '/images/clients/signature-avenues.jpg',
+    logo: '/images/clients/signature-avenues.webp',
   },
   {
     id: 'supadha',
     name: 'Supadha',
-    logo: '/images/clients/supadha.png',
+    logo: '/images/clients/supadha.webp',
   },
   {
     id: 'stanley-medical-college',
     name: 'Stanley Medical College',
-    logo: '/images/clients/stanley-medical-college.png',
+    logo: '/images/clients/stanley-medical-college.webp',
   },
 ];

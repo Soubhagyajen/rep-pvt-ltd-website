@@ -1,10 +1,12 @@
+import dynamic from 'next/dynamic';
 import { Hero } from '@/components/home/Hero';
-import { About } from '@/components/home/About';
-import WhyChooseSection from '@/components/home/WhyChoose/WhyChooseSection';
-import Services from '@/components/home/Services/Services';
-import IndustriesSection from '@/components/home/Industries/IndustriesSection';
-import ClientsSection from '@/components/home/Clients/ClientsSection';
-import WorkflowSection from '@/components/home/Workflow/WorkflowSection';
+
+const About = dynamic(() => import('@/components/home/About').then((m) => m.About));
+const WhyChooseSection = dynamic(() => import('@/components/home/WhyChoose/WhyChooseSection'));
+const Services = dynamic(() => import('@/components/home/Services/Services'));
+const IndustriesSection = dynamic(() => import('@/components/home/Industries/IndustriesSection'));
+const ClientsSection = dynamic(() => import('@/components/home/Clients/ClientsSection'));
+const WorkflowSection = dynamic(() => import('@/components/home/Workflow/WorkflowSection'));
 
 export default function Home() {
   return (

@@ -45,7 +45,7 @@ export const ABOUT_DATA: AboutData = {
     'Complete Turnkey Design & Execution',
   ],
   image: {
-    src: '/images/about/about-mep.png',
+    src: '/images/about/about-mep.webp',
     alt: 'Heavy mechanical machinery and high-precision building utility pipeline networks engineered by REP Pvt Ltd',
   },
   cta: {

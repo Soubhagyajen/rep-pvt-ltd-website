@@ -11,8 +11,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['Electrical', 'Plumbing & PHE', 'Fire Fighting'],
     status: 'Completed',
     completionYear: 2023,
-    coverImage: '/images/projects/lodha.png',
-    heroImage: '/images/projects/lodha.png',
+    coverImage: '/images/projects/lodha.webp',
+    heroImage: '/images/projects/lodha.webp',
     description:
       'Turnkey electrical systems distribution, public health engineering (PHE), and certified firefighting installation for premium luxury residential towers.',
     overview:
@@ -32,7 +32,7 @@ export const PROJECTS_DATA: Project[] = [
       'Designing water supply networks capable of managing vertical pressure variations across 30+ floors without increasing risk of piping wear.',
     solutions:
       'Configured a multi-zone hydro-pneumatic pumping layout using pressure reducing valves (PRVs) to maintain uniform pressure across all residential levels.',
-    gallery: ['/images/services/plumbing.png', '/images/services/fire-fighting.png'],
+    gallery: ['/images/services/plumbing.webp', '/images/services/fire-fighting.webp'],
     stats: [
       { label: 'Connected Load', value: '6.5 MVA' },
       { label: 'Pressure Zones', value: '4 Zones' },
@@ -49,8 +49,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['HVAC', 'Electrical', 'Plumbing & PHE'],
     status: 'Completed',
     completionYear: 2024,
-    coverImage: '/images/projects/my-home.png',
-    heroImage: '/images/projects/my-home.png',
+    coverImage: '/images/projects/my-home.webp',
+    heroImage: '/images/projects/my-home.webp',
     description:
       'Turnkey public health engineering, water management networks, and fire safety systems across a multi-tower premium highrise residential township.',
     overview:
@@ -70,7 +70,7 @@ export const PROJECTS_DATA: Project[] = [
       'Integrating high-load vertical riser shafts within constrained interior core dimensions without violating structural safety tolerances.',
     solutions:
       'Developed virtual 3D path models to optimize utility spaces, reducing core layout footprints by 15% while matching high-voltage guidelines.',
-    gallery: ['/images/services/electrical.png', '/images/services/plumbing.png'],
+    gallery: ['/images/services/electrical.webp', '/images/services/plumbing.webp'],
     stats: [
       { label: 'STP Capacity', value: '600 KLD' },
       { label: 'HVAC Capacity', value: '1,800 TR' },
@@ -87,8 +87,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['Electrical', 'Fire Fighting', 'FAPA'],
     status: 'Completed',
     completionYear: 2023,
-    coverImage: '/images/projects/aparna.png',
-    heroImage: '/images/projects/aparna.png',
+    coverImage: '/images/projects/aparna.webp',
+    heroImage: '/images/projects/aparna.webp',
     description:
       'Complete electrical distribution, addressable fire alarm, and high-velocity hydrant networks for a premium residential complex.',
     overview:
@@ -108,7 +108,7 @@ export const PROJECTS_DATA: Project[] = [
       'Achieving zero-downtime transition for backup power generators in critical fire safety situations.',
     solutions:
       'Implemented high-speed Automatic Transfer Switches (ATS) coupled with centralized synchronization panels to restore full service within 6 seconds.',
-    gallery: ['/images/services/fire-fighting.png', '/images/services/fapa.png'],
+    gallery: ['/images/services/fire-fighting.webp', '/images/services/fapa.webp'],
     stats: [
       { label: 'Backup Power', value: '4,000 kVA' },
       { label: 'Fire Detectors', value: '1,800 Nodes' },
@@ -125,8 +125,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['Interior Fitout', 'Electrical', 'ELV'],
     status: 'Completed',
     completionYear: 2024,
-    coverImage: '/images/projects/signature.png',
-    heroImage: '/images/projects/signature.png',
+    coverImage: '/images/projects/signature.webp',
+    heroImage: '/images/projects/signature.webp',
     description:
       'Premium turnkey interior fitout and electrical engineering integration for corporate common areas and residential clubhouses.',
     overview:
@@ -146,7 +146,7 @@ export const PROJECTS_DATA: Project[] = [
       'Integrating complex cabling infrastructure behind minimalist, clean architectural wood paneling and exposed concrete columns.',
     solutions:
       'Utilized custom micro-duct routing and false flooring to run ELV and electrical lines seamlessly without disturbing raw finishes.',
-    gallery: ['/images/services/electrical.png'],
+    gallery: ['/images/services/electrical.webp'],
     stats: [
       { label: 'Fitout Area', value: '45,000 sq.ft' },
       { label: 'CCTV Channels', value: '120 Channels' },
@@ -163,8 +163,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['HVAC', 'BMS & Automation'],
     status: 'In Progress',
     completionYear: 2026,
-    coverImage: '/images/projects/supadha.png',
-    heroImage: '/images/projects/supadha.png',
+    coverImage: '/images/projects/supadha.webp',
+    heroImage: '/images/projects/supadha.webp',
     description:
       'Smart building management systems (BMS) and high-efficiency HVAC chillers for an eco-friendly commercial workspace.',
     overview:
@@ -184,7 +184,7 @@ export const PROJECTS_DATA: Project[] = [
       'Achieving absolute compliance with high green building standards (GRIHA 4-Star) for heavy energy consumption zones.',
     solutions:
       'Integrated occupancy sensor grids to cut airflows and lighting load matrices when zones are empty, saving 30% on base utility loads.',
-    gallery: ['/images/services/elv.png'],
+    gallery: ['/images/services/elv.webp'],
     stats: [
       { label: 'Energy Target', value: 'GRIHA 4-Star' },
       { label: 'HVAC Flow Rate', value: '80,000 CFM' },
@@ -201,8 +201,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['HVAC', 'ELV', 'Interior Fitout'],
     status: 'Completed',
     completionYear: 2024,
-    coverImage: '/images/projects/jv-ventures.png',
-    heroImage: '/images/projects/jv-ventures.png',
+    coverImage: '/images/projects/jv-ventures.webp',
+    heroImage: '/images/projects/jv-ventures.webp',
     description:
       'Premium interior fitout combined with low-noise HVAC ducting and smart security access control networks.',
     overview:
@@ -222,7 +222,7 @@ export const PROJECTS_DATA: Project[] = [
       'Eliminating audible HVAC duct vibration and airflow noise in boardroom spaces directly below the main mechanical plant.',
     solutions:
       'Installed double-walled acoustic silencers and vibration-isolation mounts on all air handling units to meet strict low-noise indices.',
-    gallery: ['/images/services/hvac.png'],
+    gallery: ['/images/services/hvac.webp'],
     stats: [
       { label: 'Total Floors', value: '8 Floors' },
       { label: 'Acoustic Index', value: 'NC-25' },
@@ -239,8 +239,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['Plumbing & PHE', 'Fire Fighting', 'ELV'],
     status: 'Completed',
     completionYear: 2023,
-    coverImage: '/images/projects/stanley.png',
-    heroImage: '/images/projects/stanley.png',
+    coverImage: '/images/projects/stanley.webp',
+    heroImage: '/images/projects/stanley.webp',
     description:
       'Public health engineering, certified clean-room plumbing, and addressable FAPA fire protection networks for the hospital wings.',
     overview:
@@ -260,7 +260,7 @@ export const PROJECTS_DATA: Project[] = [
       'Designing dynamic clean room airflow cycles to keep positive pressure gradients in active surgeries, eliminating pathogen contamination risks.',
     solutions:
       'Integrated custom dynamic VAV (Variable Air Volume) dampers linked to pressure gauges, maintaining exact pressure zones automatically.',
-    gallery: ['/images/services/fire-fighting.png', '/images/services/elv.png'],
+    gallery: ['/images/services/fire-fighting.webp', '/images/services/elv.webp'],
     stats: [
       { label: 'Bed Capacity', value: '500 Beds' },
       { label: 'HEPA Efficiency', value: '99.97%' },
@@ -277,8 +277,8 @@ export const PROJECTS_DATA: Project[] = [
     services: ['Electrical', 'HVAC', 'Plumbing & PHE'],
     status: 'Completed',
     completionYear: 2022,
-    coverImage: '/images/projects/tb.png',
-    heroImage: '/images/projects/tb.png',
+    coverImage: '/images/projects/tb.webp',
+    heroImage: '/images/projects/tb.webp',
     description:
       'Large-scale industrial engineering featuring high-voltage electrical substations, process cooling loops, and heavy exhaust ventilation.',
     overview:
@@ -299,9 +299,9 @@ export const PROJECTS_DATA: Project[] = [
     solutions:
       'Designed high-volume exhaust stacks paired with intelligent heat-recovery ventilation (HRV) units, reducing cooling power draw by 22%.',
     gallery: [
-      '/images/services/electrical.png',
-      '/images/services/hvac.png',
-      '/images/services/plumbing.png',
+      '/images/services/electrical.webp',
+      '/images/services/hvac.webp',
+      '/images/services/plumbing.webp',
     ],
     stats: [
       { label: 'Substation Load', value: '15 MVA' },
