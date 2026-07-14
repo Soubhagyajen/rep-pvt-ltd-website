@@ -7,7 +7,7 @@ import { ServiceGrid } from './ServiceGrid';
 import { FeaturedService } from './FeaturedService';
 
 export default function Services() {
-  const [activeServiceId, setActiveServiceId] = useState('electrical');
+  const [activeServiceId, setActiveServiceId] = useState('fire-fighting');
   const activeService = SERVICES_DATA.find((s) => s.id === activeServiceId) || SERVICES_DATA[0];
 
   useEffect(() => {

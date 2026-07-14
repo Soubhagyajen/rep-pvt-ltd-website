@@ -14,7 +14,7 @@ export default function ProjectsPage() {
       <PageHeader
         title="Engineering Milestones"
         breadcrumbs={[{ label: 'Projects' }]}
-        description="REP Pvt Ltd has successfully delivered mechanical, electrical, plumbing, and turnkey interior fitout solutions for residential, commercial, healthcare, hospitality, educational, and heavy industrial assets across India."
+        description="REP Pvt Ltd has successfully delivered firefighting, extra-low voltage (ELV), plumbing, HVAC, electrical, and turnkey interior fitout solutions for residential, commercial, healthcare, hospitality, educational, and heavy industrial assets across India."
       />
       <div className="animate-in fade-in slide-in-from-bottom-5 mx-auto mt-16 w-full max-w-7xl px-4 delay-150 duration-700 sm:px-6 lg:px-8">
         <ProjectsList />

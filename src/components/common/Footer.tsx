@@ -98,7 +98,7 @@ export function Footer() {
             </span>
           </Link>
           <p className="max-w-sm text-sm leading-relaxed text-gray-400">
-            REP PVT LTD delivers turnkey Electrical, HVAC, Plumbing, Fire Fighting, ELV and FAPA
+            REP PVT LTD delivers turnkey Fire Fighting, ELV, Plumbing, HVAC, Electrical and FAPA
             engineering solutions across India. ISO 9001:2015 certified.
           </p>
           <div className="flex gap-4">

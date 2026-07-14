@@ -9,66 +9,6 @@ export const SERVICES_HEADER = {
 
 export const SERVICES_DATA: Service[] = [
   {
-    id: 'electrical',
-    title: 'Electrical Works',
-    icon: 'Zap',
-    imageUrl: '/images/services/electrical.webp',
-    shortDescription:
-      'High-tension & low-tension power distribution, substations, panels, and backup grids.',
-    description:
-      'We design and commission heavy-duty electrical networks, from incoming HT substation lines and high-capacity transformers to distribution LT panels, riser busducts, and earthing grids.',
-    features: [
-      'HT Substation & Transformer installations',
-      'HT/LT Distribution Panels & Cable trays',
-      'DG Synchronizing Backup Power grids',
-      'Industrial Lighting & Earthing frameworks',
-    ],
-    metrics: [
-      { value: '12 MVA', label: 'Connected Load Max' },
-      { value: '3x2000KVA', label: 'Transformer Max' },
-    ],
-  },
-  {
-    id: 'hvac',
-    title: 'HVAC Solutions',
-    icon: 'Wind',
-    imageUrl: '/images/services/hvac.webp',
-    shortDescription:
-      'Centralized chilled water plants, VRF, ventilation, and data center cooling.',
-    description:
-      'Our mechanical air systems prioritize climate control, energy-efficiency metrics, and Indoor Air Quality (IAQ) profiles across corporate parks, data centers, and industrial facilities.',
-    features: [
-      'Chiller Plant & VRF system configurations',
-      'Smoke extraction & exhaust ventilation grids',
-      'Clean Room HVAC & air handling units',
-      'Intelligent Building Management (BMS) controls',
-    ],
-    metrics: [
-      { value: '4,500 TR', label: 'Project Capacity' },
-      { value: '1.25 PUE', label: 'Data Center Target' },
-    ],
-  },
-  {
-    id: 'plumbing',
-    title: 'Plumbing & PHE',
-    icon: 'Droplet',
-    imageUrl: '/images/services/plumbing.webp',
-    shortDescription:
-      'Water treatment setups, sewage treatment plants, domestic lines, and drainage loops.',
-    description:
-      'Sustainable public health engineering. We deploy high-efficiency water supply networks, sand/carbon filtration treatment plants (STP/WTP), and heavy industrial storm drainage systems.',
-    features: [
-      'Hydro-pneumatic domestic water distribution',
-      'Sewage Treatment & Effluent Treatment plants',
-      'Rainwater harvesting and storage grids',
-      'High-pressure soil, waste & vent piping loops',
-    ],
-    metrics: [
-      { value: '450 KLD', label: 'STP Capacity Max' },
-      { value: 'ZLD', label: 'Zero Liquid Discharge' },
-    ],
-  },
-  {
     id: 'fire-fighting',
     title: 'Fire Protection',
     icon: 'Flame',
@@ -105,6 +45,66 @@ export const SERVICES_DATA: Service[] = [
     metrics: [
       { value: '10G', label: 'Fiber Core Backbone' },
       { value: '1,800+', label: 'Node Network Capacity' },
+    ],
+  },
+  {
+    id: 'plumbing',
+    title: 'Plumbing & PHE',
+    icon: 'Droplet',
+    imageUrl: '/images/services/plumbing.webp',
+    shortDescription:
+      'Water treatment setups, sewage treatment plants, domestic lines, and drainage loops.',
+    description:
+      'Sustainable public health engineering. We deploy high-efficiency water supply networks, sand/carbon filtration treatment plants (STP/WTP), and heavy industrial storm drainage systems.',
+    features: [
+      'Hydro-pneumatic domestic water distribution',
+      'Sewage Treatment & Effluent Treatment plants',
+      'Rainwater harvesting and storage grids',
+      'High-pressure soil, waste & vent piping loops',
+    ],
+    metrics: [
+      { value: '450 KLD', label: 'STP Capacity Max' },
+      { value: 'ZLD', label: 'Zero Liquid Discharge' },
+    ],
+  },
+  {
+    id: 'hvac',
+    title: 'HVAC Solutions',
+    icon: 'Wind',
+    imageUrl: '/images/services/hvac.webp',
+    shortDescription:
+      'Centralized chilled water plants, VRF, ventilation, and data center cooling.',
+    description:
+      'Our mechanical air systems prioritize climate control, energy-efficiency metrics, and Indoor Air Quality (IAQ) profiles across corporate parks, data centers, and industrial facilities.',
+    features: [
+      'Chiller Plant & VRF system configurations',
+      'Smoke extraction & exhaust ventilation grids',
+      'Clean Room HVAC & air handling units',
+      'Intelligent Building Management (BMS) controls',
+    ],
+    metrics: [
+      { value: '4,500 TR', label: 'Project Capacity' },
+      { value: '1.25 PUE', label: 'Data Center Target' },
+    ],
+  },
+  {
+    id: 'electrical',
+    title: 'Electrical Works',
+    icon: 'Zap',
+    imageUrl: '/images/services/electrical.webp',
+    shortDescription:
+      'High-tension & low-tension power distribution, substations, panels, and backup grids.',
+    description:
+      'We design and commission heavy-duty electrical networks, from incoming HT substation lines and high-capacity transformers to distribution LT panels, riser busducts, and earthing grids.',
+    features: [
+      'HT Substation & Transformer installations',
+      'HT/LT Distribution Panels & Cable trays',
+      'DG Synchronizing Backup Power grids',
+      'Industrial Lighting & Earthing frameworks',
+    ],
+    metrics: [
+      { value: '12 MVA', label: 'Connected Load Max' },
+      { value: '3x2000KVA', label: 'Transformer Max' },
     ],
   },
   {

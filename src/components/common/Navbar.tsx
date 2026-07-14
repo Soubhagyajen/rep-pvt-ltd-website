@@ -166,7 +166,7 @@ export function Navbar() {
               alt="REP Pvt Ltd Logo"
               width={1024}
               height={898}
-              className="h-[28px] w-auto shrink-0 object-contain transition-transform duration-300 hover:scale-105 md:h-[34px] lg:h-[40px]"
+              className="h-[33px] w-auto shrink-0 object-contain transition-transform duration-300 hover:scale-105 md:h-[40px] lg:h-[48px]"
               priority
             />
           </div>
@@ -400,7 +400,7 @@ export function Navbar() {
                       alt="REP Logo"
                       width={32}
                       height={28}
-                      className="h-7 w-auto object-contain"
+                      className="h-8 w-auto object-contain"
                     />
                     <span className="font-heading text-lg font-black tracking-tight text-white">
                       REP <span className="text-accent">PVT LTD</span>

@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
   name: 'REP PVT LTD',
   shortName: 'REP',
   description:
-    'Leading MEP Engineering & Interior Fitout Specialists. Delivering Electrical, HVAC, Plumbing, Fire Fighting, ELV, FAPA, and Fitout services.',
+    'Leading MEP Engineering & Interior Fitout Specialists. Delivering Fire Fighting, ELV, Plumbing, HVAC, Electrical, FAPA, and Fitout services.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.repmep.com',
   ogImage: '/assets/images/og-image.jpg',
   contactEmail: 'ck@reppvtltd.com',
@@ -57,40 +57,6 @@ export const NAV_LINKS = [
 
 export const SERVICES = [
   {
-    id: 'electrical',
-    title: 'Electrical',
-    shortDescription:
-      'High-tension & low-tension power distribution, substations, lighting, and backup power.',
-    description:
-      'We deliver comprehensive electrical solutions from high-voltage substation engineering to complex internal building circuitry. Our services ensure robust, reliable, and energy-efficient power flow throughout the infrastructure.',
-    icon: 'Zap',
-    slug: 'electrical-engineering',
-    features: [
-      'Substation and Transformer installation',
-      'HT & LT Panels and Cable routing',
-      'Internal & External Lighting Systems',
-      'DG Sets and UPS Backup systems',
-      'Lightning protection and earthing grids',
-    ],
-  },
-  {
-    id: 'hvac',
-    title: 'HVAC',
-    shortDescription:
-      'Centralized chilled water plants, VRF systems, mechanical ventilation, and filtration.',
-    description:
-      'Our HVAC designs prioritize climate control, energy efficiency, and IAQ (Indoor Air Quality). We model custom airflow profiles for commercial spaces, hospitals, data centers, and industrial facilities.',
-    icon: 'Wind',
-    slug: 'hvac-ventilation-air-conditioning',
-    features: [
-      'Chiller Plant and VRF system configurations',
-      'Mechanical ventilation & smoke extraction systems',
-      'Air Handling Units (AHU) & duct routing layout',
-      'Precision air conditioning for data centers',
-      'Building Management System (BMS) integration',
-    ],
-  },
-  {
     id: 'fire-fighting',
     title: 'Fire Fighting',
     shortDescription:
@@ -105,6 +71,21 @@ export const SERVICES = [
       'Fire pumps and storage reservoir design',
       'Portable extinguishers and safety signage',
       'Compliance and safety audits',
+    ],
+  },
+  {
+    id: 'elv',
+    title: 'ELV',
+    shortDescription: 'Extra-low voltage networks, CCTV, access control, and IT infrastructure.',
+    description:
+      'Extra-low voltage system integrations that serve as the technological spine of modern structures, including surveillance, structured cabling, and smart automation systems.',
+    icon: 'Cpu',
+    slug: 'elv-systems',
+    features: [
+      'Structured cabling and LAN/WiFi architecture',
+      'IP CCTV Surveillance and Access Control matrices',
+      'Audio-Visual (AV) and board room automation',
+      'Home and building automation systems',
     ],
   },
   {
@@ -125,18 +106,37 @@ export const SERVICES = [
     ],
   },
   {
-    id: 'elv',
-    title: 'ELV',
-    shortDescription: 'Extra-low voltage networks, CCTV, access control, and IT infrastructure.',
+    id: 'hvac',
+    title: 'HVAC',
+    shortDescription:
+      'Centralized chilled water plants, VRF systems, mechanical ventilation, and filtration.',
     description:
-      'Extra-low voltage system integrations that serve as the technological spine of modern structures, including surveillance, structured cabling, and smart automation systems.',
-    icon: 'Cpu',
-    slug: 'elv-systems',
+      'Our HVAC designs prioritize climate control, energy efficiency, and IAQ (Indoor Air Quality). We model custom airflow profiles for commercial spaces, hospitals, data centers, and industrial facilities.',
+    icon: 'Wind',
+    slug: 'hvac-ventilation-air-conditioning',
     features: [
-      'Structured cabling and LAN/WiFi architecture',
-      'IP CCTV Surveillance and Access Control matrices',
-      'Audio-Visual (AV) and board room automation',
-      'Home and building automation systems',
+      'Chiller Plant and VRF system configurations',
+      'Mechanical ventilation & smoke extraction systems',
+      'Air Handling Units (AHU) & duct routing layout',
+      'Precision air conditioning for data centers',
+      'Building Management System (BMS) integration',
+    ],
+  },
+  {
+    id: 'electrical',
+    title: 'Electrical',
+    shortDescription:
+      'High-tension & low-tension power distribution, substations, lighting, and backup power.',
+    description:
+      'We deliver comprehensive electrical solutions from high-voltage substation engineering to complex internal building circuitry. Our services ensure robust, reliable, and energy-efficient power flow throughout the infrastructure.',
+    icon: 'Zap',
+    slug: 'electrical-engineering',
+    features: [
+      'Substation and Transformer installation',
+      'HT & LT Panels and Cable routing',
+      'Internal & External Lighting Systems',
+      'DG Sets and UPS Backup systems',
+      'Lightning protection and earthing grids',
     ],
   },
   {

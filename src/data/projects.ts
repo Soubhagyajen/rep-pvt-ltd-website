@@ -2,9 +2,9 @@ import { Project } from '@/types';
 
 export const PROJECTS_DATA: Project[] = [
   {
-    id: 'lodha-bellezza',
-    slug: 'lodha-bellezza-mep-services',
-    title: 'Lodha Bellezza MEP Services',
+    id: 'lodha-meridian',
+    slug: 'lodha-meridian-mep-services',
+    title: 'Lodha Meridian MEP Services',
     client: 'Lodha',
     location: 'Kukatpally, Hyderabad, Telangana',
     category: 'Residential',
@@ -16,7 +16,7 @@ export const PROJECTS_DATA: Project[] = [
     description:
       'Turnkey electrical systems distribution, public health engineering (PHE), and certified firefighting installation for premium luxury residential towers.',
     overview:
-      'Complete MEP, plumbing, and safety infrastructure implementation for Lodha Bellezza, a premium luxury residential development in Hyderabad. The project required high-voltage substation setup, vertical riser busducts, advanced hydro-pneumatic water distribution, and NFPA-compliant firefighting loops across multiple high-rise towers.',
+      'Complete MEP, plumbing, and safety infrastructure implementation for Lodha Meridian, a premium luxury residential development in Hyderabad. The project required high-voltage substation setup, vertical riser busducts, advanced hydro-pneumatic water distribution, and NFPA-compliant firefighting loops across multiple high-rise towers.',
     scopeOfWork: [
       'Installation of high-voltage outdoor substations and heavy transformers.',
       'Sandwich busduct systems for vertical distribution riser shafts.',

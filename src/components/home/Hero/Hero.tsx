@@ -164,7 +164,7 @@ export function Hero() {
           {/* Sub-Branding */}
           <motion.div
             variants={badgeVariants}
-            className="font-heading text-accent text-xs leading-relaxed font-black tracking-[4px] uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] select-none sm:text-sm"
+            className="font-heading text-accent text-sm leading-relaxed font-black tracking-[5px] uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] select-none sm:text-base"
           >
             ROUTRAY ELECTRO MECHANICAL PROJECTS (REP) PVT LTD
           </motion.div>
@@ -176,10 +176,10 @@ export function Hero() {
           >
             ISO 9001:2015 Certified MEP Engineering Company delivering turnkey{' '}
             <span className="font-semibold text-white">
-              Electrical, HVAC, Plumbing, Fire Fighting, ELV
+              Fire Fighting, ELV, Plumbing, HVAC, Electrical
             </span>{' '}
             and <span className="font-semibold text-white">FAPA</span> solutions across commercial,
-            residential, healthcare and industrial infrastructure across India.
+            residential, healthcare and industrial infrastructure.
           </motion.p>
 
           {/* Premium CTAs */}

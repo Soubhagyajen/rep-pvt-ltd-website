@@ -25,7 +25,7 @@ export const HERO_DATA: HeroData = {
   titleLine2: 'Under One Roof',
   descriptionPrefix:
     'REP PVT LTD designs and deploys sustainable, scale-ready corporate utility infrastructure. We unify specialist services in ',
-  descriptionSpecialties: ['Electrical', 'HVAC', 'Plumbing', 'Fire Fighting', 'ELV', 'FAPA'],
+  descriptionSpecialties: ['Fire Fighting', 'ELV', 'Plumbing', 'HVAC', 'Electrical', 'FAPA'],
   descriptionSuffix: ' networks under a singular stamp of quality.',
   ctaPrimary: {
     label: 'Explore Services',
