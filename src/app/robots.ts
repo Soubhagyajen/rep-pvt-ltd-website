@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.repmep.com/sitemap.xml',
+    sitemap: 'https://reppvtltd.com/sitemap.xml',
   };
 }
