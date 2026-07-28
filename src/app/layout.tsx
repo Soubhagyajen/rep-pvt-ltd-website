@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   },
   description: SITE_CONFIG.description,
   metadataBase: new URL(SITE_CONFIG.url),
+  verification: {
+    google: 'y2AZyjWB79YQ8cWGThaG1wsayjuxoKVfj2BVgebUuTI',
+  },
   alternates: {
     canonical: './',
   },
