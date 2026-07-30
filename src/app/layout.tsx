@@ -1,3 +1,4 @@
+import StructuredData from '@/components/seo/StructuredData';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import { Inter, Montserrat, Space_Grotesk } from 'next/font/google';
@@ -60,6 +61,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
@@ -93,6 +101,8 @@ export default function RootLayout({
           <Footer />
           <FloatingContact />
         </ThemeProvider>
+        {/* <GoogleAnalytics gaId="G-BTWPL1SR0" /> */}
+        <StructuredData />
         <GoogleAnalytics gaId="G-BTWPL1SR0" />
       </body>
     </html>
