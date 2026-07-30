@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import { Inter, Montserrat, Space_Grotesk } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
@@ -92,6 +93,7 @@ export default function RootLayout({
           <Footer />
           <FloatingContact />
         </ThemeProvider>
+        <GoogleAnalytics gaId="G-BTWPL1SR0" />
       </body>
     </html>
   );
