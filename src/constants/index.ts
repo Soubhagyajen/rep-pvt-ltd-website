@@ -39,7 +39,7 @@ export const SITE_CONFIG = {
     country: 'India',
   },
   social: {
-    linkedin: 'https://linkedin.com/company/rep-pvt-ltd',
+    linkedin: 'https://www.linkedin.com/company/reppvtltd',
     twitter: 'https://twitter.com/rep_mep',
     facebook: 'https://facebook.com/rep.mep',
   },
