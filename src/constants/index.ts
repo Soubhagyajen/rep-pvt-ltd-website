@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   shortName: 'REP',
   description:
     'Leading MEP Engineering & Interior Fitout Specialists. Delivering Fire Fighting, ELV, Plumbing, HVAC, Electrical, FAPA, and Fitout services.',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.repmep.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.reppvtltd.com',
   ogImage: '/assets/images/og-image.jpg',
   contactEmail: 'ck@reppvtltd.com',
   secondaryEmail: 'sales@reppvtltd.com',

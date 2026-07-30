@@ -1,7 +1,9 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://reppvtltd.com';
+  // const baseUrl = 'https://www.reppvtltd.com';
+  // const baseUrl = "https://www.reppvtltd.com";
+  const baseUrl = 'https://www.reppvtltd.com';
 
   return [
     {
